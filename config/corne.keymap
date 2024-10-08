@@ -21,10 +21,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp SQT   &kp COMMA  &kp DOT   &kp P  &kp Y        &kp F    &kp G  &kp C     &kp R  &kp L  &kp BSPC
-&kp LCTRL  &kp A     &kp O      &kp E     &kp U  &kp I        &kp D    &kp H  &kp T     &kp N  &kp S  &kp FSLH
-&kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K  &kp X        &kp B    &kp M  &kp W     &kp V  &kp Z  &kp ESC
-                                &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB    &kp SQT   &kp COMMA  &kp DOT   &kp P  &kp Y        &kp F      &kp G  &kp C     &kp R  &kp L  &kp BSPC
+&kp LCTRL  &kp A     &kp O      &kp E     &kp U  &kp I        &kp D      &kp H  &kp T     &kp N  &kp S  &kp FSLH
+&kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K  &kp X        &kp B      &kp M  &kp W     &kp V  &kp Z  &kp ESC
+                                &kp LGUI  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -63,9 +63,18 @@
         layer_3 {
             bindings = <
 &tog 3   &kp LEFT_ALT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
-&kp F    &kp SPACE     &kp A            &kp W            &kp D            &kp Z              &trans  &trans  &trans  &trans  &trans  &trans
+&kp Q    &kp SPACE     &kp A            &kp W            &kp D            &kp Z              &trans  &trans  &trans  &trans  &trans  &trans
 &kp ESC  &kp E         &kp V            &kp S            &kp C            &kp X              &trans  &trans  &trans  &trans  &trans  &trans
-                                        &kp I            &kp TAB          &kp LSHIFT         &trans  &trans  &trans
+                                        &kp TAB          &mo 4            &kp LSHIFT         &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&kp ENTER  &kp HOME   &kp PG_UP  &kp PG_DN  &kp U   &kp K             &trans  &trans  &trans  &trans  &trans  &trans
+&kp F      &kp SPACE  &kp A      &kp W      &kp D   &kp G             &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC    &kp B      &kp O      &kp S      &kp P   &kp Y             &trans  &trans  &trans  &trans  &trans  &trans
+                                 &kp I      &trans  &kp LEFT_SHIFT    &trans  &trans  &trans
             >;
         };
     };
