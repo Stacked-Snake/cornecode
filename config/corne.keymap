@@ -62,16 +62,16 @@
 
         layer_3 {
             bindings = <
-&tog 3   &kp LEFT_ALT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
-&kp Q    &kp SPACE     &kp A            &kp W            &kp D            &kp Z              &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp E         &kp V            &kp S            &kp C            &kp X              &trans  &trans  &trans  &trans  &trans  &trans
-                                        &kp TAB          &mo 4            &kp LSHIFT         &trans  &trans  &trans
+&tog 3   &kp LEFT_ALT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
+&kp Q    &kp SPACE     &kp A         &kp W         &kp D         &kp Z           &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp E         &kp V         &kp S         &kp C         &kp X           &trans  &trans  &trans  &trans  &trans  &trans
+                                     &kp TAB       &mo 4         &kp LSHIFT      &trans  &trans  &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&kp ENTER  &kp HOME   &kp PG_UP  &kp PG_DN  &kp U   &kp K             &trans  &trans  &trans  &trans  &trans  &trans
+&kp ENTER  &kp HOME   &kp PG_UP  &kp PG_DN  &kp M   &kp K             &trans  &trans  &trans  &trans  &trans  &trans
 &kp F      &kp SPACE  &kp A      &kp W      &kp D   &kp G             &trans  &trans  &trans  &trans  &trans  &trans
 &kp ESC    &kp B      &kp O      &kp S      &kp P   &kp Y             &trans  &trans  &trans  &trans  &trans  &trans
                                  &kp I      &trans  &kp LEFT_SHIFT    &trans  &trans  &trans
